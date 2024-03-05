@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net8.0-windows</TargetFramework>
+	<Nullable>enable</Nullable>
+	<UseWindowsForms>true</UseWindowsForms>
+	<ImplicitUsings>enable</ImplicitUsings>
+
+	<ApplicationVisualStyles>true</ApplicationVisualStyles>
+	<ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+	<StartupObject>SqlStatisticsViewer.Program</StartupObject>
+	<Title>SQL Statistics Viewer</Title>
+	<Description>SQL Statistics Viewer</Description>
+	<Copyright>Terry Hughes © 2024</Copyright>
+	<PackageIcon>Trentino_Favicon_RGB.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Terry\OneDrive - Trentino Financial Solutions Ltd\Trentino\Logos\Trentino_Logo_Suite\Favicon\Trentino_Favicon_RGB.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+	<Reference Include="TFormsLib">
+	  <HintPath>..\..\..\Releases\Libraries\TLibraries\net8.0-windows7.0\TFormsLib.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+
+</Project>
