@@ -14,7 +14,12 @@
 	<Description>SQL Statistics Viewer</Description>
 	<Copyright>Trentino Financial Solutions Ltd © 2024</Copyright>
 	<PackageIcon>Trentino_Favicon_RGB.png</PackageIcon>
+	<ApplicationIcon>Assets\Trentino_Favicon_RGB.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Trentino_Favicon_RGB.ico" />
+  </ItemGroup>
 
   <ItemGroup>
 	<Reference Include="TFormsLib">
